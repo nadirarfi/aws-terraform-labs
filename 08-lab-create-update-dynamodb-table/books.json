@@ -1,0 +1,19 @@
+{
+    "Book1": {
+      "ISBN": {
+        "N": "1812191"
+      },
+      "Title": {
+        "S": "Psychology of money"
+      }
+    },
+
+    "Book2": {
+      "ISBN": {
+        "N": "1218283"
+      },
+      "Title": {
+        "S": "Atomic Habits"
+      }
+    }
+}

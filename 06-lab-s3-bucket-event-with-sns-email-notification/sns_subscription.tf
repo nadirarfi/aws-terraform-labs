@@ -1,4 +1,3 @@
-
 resource "aws_sns_topic_subscription" "sub" {
   topic_arn = aws_sns_topic.my_topic.arn
   protocol  = "email"

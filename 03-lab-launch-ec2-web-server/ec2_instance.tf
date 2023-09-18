@@ -1,11 +1,3 @@
-variable "ami_id" {
-  description = "AMI id"
-}
-
-variable "instance_type" {
-  description = "Instance type"
-}
-
 resource "aws_instance" "web-server" {
   ami             = var.ami_id
   instance_type   = var.instance_type

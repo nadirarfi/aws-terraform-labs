@@ -9,8 +9,9 @@ variable "region" {
 }
 
 variable "sns_subscription_email" {
-  type        = string
+  type = string
   description = "Email endpoint for the SNS subscription"
+  default = "nadir.arfi@g.enp.edu.dz"
 }
 
 variable "topic_name" {
